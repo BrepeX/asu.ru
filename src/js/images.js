@@ -1,0 +1,6 @@
+import "../images/decan.png"
+import "../images/eventsPreview.png"
+import "../images/aboutUsPreview.png"
+import "../images/historyPreview.png"
+import "../images/arrow.svg"
+import "../images/swiperPreview.png"

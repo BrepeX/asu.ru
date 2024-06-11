@@ -1,0 +1,22 @@
+@import "variables";
+
+@mixin list_style {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: $green;
+  border-radius: 50%;
+  left: -15px;
+  transform: translate(-100%, 50%);
+  top: 0;
+}
+
+@mixin button_animation {
+  transition: .5s all ease;
+
+  &:hover {
+    scale: 1.1;
+  }
+}
